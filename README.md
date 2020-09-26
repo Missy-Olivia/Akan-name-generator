@@ -1,1 +1,1 @@
-# Akwan-name-generator
+# Akan-name-generator
