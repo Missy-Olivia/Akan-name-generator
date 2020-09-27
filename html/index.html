@@ -16,7 +16,20 @@
 
       </div>
       <form>
-          
+        <p>Month(1-12): <input TYPE="text" NAME="month" SIZE="2"></p>
+        <p>Day(1-31): <input TYPE="text" NAME="day" SIZE="2"></p>
+        <p>Year: <input TYPE="text" NAME="year" SIZE="4"></p>
+        <p>Century: <input type="text" name="century" size="2"></p>
+        <span>Gender: </span><select name="gender" id="gender">
+          <option value=""> </option>
+          <option value="Female">Female</option>
+          <option value="Male">Male</option>
+        </select>
+        <p><input type="button" value="submit" onclick="compute(this.form)">
+          <input type="reset" value="clear"> </p>
+        <p>Day of week: <input type="text" name="result1"> </p>
+        <p>
+          Your Akan Name is: <input type="text" name="result2"> </p>
       </form>
     </body>
 </html>
