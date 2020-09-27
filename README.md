@@ -1,6 +1,7 @@
 # Akan Name Generator
 
 ## Author
+
 Ngabire Olivia Missy
 
 ## Description
