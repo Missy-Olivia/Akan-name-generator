@@ -46,3 +46,24 @@ Females[3] = "Akua"
 Females[4] = "Yaa"
 Females[5] = "Afua"
 Females[6] = "Ama"
+//Day of Week Function
+function compute(form) {
+    
+      var cc = parseInt(form.century.value,10)
+  
+      var dd = parseInt(form.day.value,10)
+      if ((dd < 0) || (dd > 31)) {
+        alert("Invalid date!")
+      }
+      var mm = parseInt(form.month.value,10)
+      if ((mm < 0) || (mm > 12)) {
+        alert("Invalid month!")
+      }
+      var yy = parseInt(form.year.value,10)
+  
+    }
+  
+    var dayOfWeek = function(cc, yy, mm, dd) {
+      return Math.ceil(((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7
+    }
+    form.result1.value = days[dayOfWeek(cc, yy, mm, dd)]
