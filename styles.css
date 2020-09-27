@@ -1,21 +1,23 @@
 h1{
     text-align: center;
     text-decoration: underline;
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h1>p{
     text-align: inherit;
     font-style: italic;
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.308);
+    color: rgb(203, 236, 233);
     text-align: center;
-    padding: 10%;
-    margin: inherit;
-    font-size: 2em;
+    font-size: 1.5em;
     background-image: url('/img/bg3.jpg');
     background-repeat: no-repeat ;
     background-size: cover;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(2px);
+}
+b{
+    color:white;
 }
