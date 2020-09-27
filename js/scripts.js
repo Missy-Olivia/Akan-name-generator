@@ -23,7 +23,7 @@ Males[3] = "Kwaku"
 Males[4] = "Yaw"
 Males[5] = "Kofi"
 Males[6] = "Kwame"
-//Array of female names
+//Array of Female names
 Females = new MakeArray(7);
 Females[0] = "Akosua"
 Females[1] = "Adwoa"
