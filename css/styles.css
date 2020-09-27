@@ -13,7 +13,7 @@ body{
     color: rgb(209, 235, 232);
     text-align: center;
     font-size: 1.5em;
-    background-image: url('/css/bg3.jpg');
+    background-image: url('../css/bg3.jpg');
     background-repeat: no-repeat ;
     background-size: cover;
     backdrop-filter: blur(1.5px);
