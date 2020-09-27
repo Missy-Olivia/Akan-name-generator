@@ -28,3 +28,21 @@ months[9] = "September"
 months[10] = "October"
 months[11] = "November"
 months[12] = "December"
+//Array for Male names
+Males = new MakeArray(7);
+Males[0] = "Kwasi"
+Males[1] = "Kwadwo"
+Males[2] = "Kwabena"
+Males[3] = "Kwaku"
+Males[4] = "Yaw"
+Males[5] = "Kofi"
+Males[6] = "Kwame"
+//Array of female names
+Females = new MakeArray(7);
+Females[0] = "Akosua"
+Females[1] = "Adwoa"
+Females[2] = "Abenaa"
+Females[3] = "Akua"
+Females[4] = "Yaa"
+Females[5] = "Afua"
+Females[6] = "Ama"
