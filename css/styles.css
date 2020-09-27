@@ -13,11 +13,7 @@ body{
     color: rgb(209, 235, 232);
     text-align: center;
     font-size: 1.5em;
-<<<<<<< HEAD
     background-image: url('/css/bg3.jpg');
-=======
-    background-image: url('/img/bg3.jpg');
->>>>>>> fbb8c65ce718d80d04ccf9f36d9414c7cc43e0a2
     background-repeat: no-repeat ;
     background-size: cover;
     backdrop-filter: blur(1.5px);
